@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contacts1.css">
+</head>
+<body>
+    <header>
+        <h1>Pagina de Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre-mine.html">Despre noi</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Contactează-mă</h2>
+        <p>Vrei să mă contactezi? Completează formularul de mai jos sau trimite un e-mail la <a href="mailto: nicoleta.nitulas@email.com">nicoleta.nitulas@email.com</a>.</p>
+        
+        <form action="submit_form.php" method="POST">
+          <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+            
+           <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> 
+            
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Trimite</button>
+        
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Pagina mea personală</p>
+        <p>Contact: nicoleta.nitulas@email.com | Telefon: 067364171</p>
+    </footer>
+</body>
+</html>
